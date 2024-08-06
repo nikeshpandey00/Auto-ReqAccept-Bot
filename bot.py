@@ -13,7 +13,7 @@ API_ID = int(10064933)
 API_HASH = 570e547925179397135f87dca7a02852
 BOT_TOKEN = 6857504564:AAHKjlCFD36T9En1tgC0WhFM81IlZq68ZyA
 DB_URL = mongodb+srv://nikeshpandeydineshwarmaharaj:iaDcEBYLvbKrnAVa@cluster0.ygubofn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-ADMINS = 6924679401
+ADMINS = int(6924679401)
 
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
