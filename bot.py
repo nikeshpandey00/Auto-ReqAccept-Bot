@@ -85,7 +85,7 @@ async def req_accept(c, m):
    
    
 
-Bot.run()
+bot.run()
 
 
 
